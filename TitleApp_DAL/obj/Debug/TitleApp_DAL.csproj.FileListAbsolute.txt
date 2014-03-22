@@ -1,0 +1,5 @@
+C:\Users\alexa001\Visual Studio 2010 Projects\TitleApp_ETurner\TitleApp_DAL\bin\Debug\TitleApp_DAL.dll
+C:\Users\alexa001\Visual Studio 2010 Projects\TitleApp_ETurner\TitleApp_DAL\bin\Debug\TitleApp_DAL.pdb
+C:\Users\alexa001\Visual Studio 2010 Projects\TitleApp_ETurner\TitleApp_DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexa001\Visual Studio 2010 Projects\TitleApp_ETurner\TitleApp_DAL\obj\Debug\TitleApp_DAL.dll
+C:\Users\alexa001\Visual Studio 2010 Projects\TitleApp_ETurner\TitleApp_DAL\obj\Debug\TitleApp_DAL.pdb

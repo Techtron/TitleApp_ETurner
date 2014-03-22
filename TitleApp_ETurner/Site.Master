@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="TitleApp_ETurner.SiteMaster" %>
+<%@ Register Src="Forms/Header.ascx" TagName="header" TagPrefix="uc3" %>
+<%@ Register Src="Forms/Footer.ascx" TagName="footer" TagPrefix="uc2" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+
+ <link href="Styles/Site.css" type="text/css" rel="stylesheet">
+     <script type="text/javascript" src="Scripts/jquery-1.4.1.min.js"></script>
+	<script type="text/javascript" src="Scripts/jquery-1.4.1.js"></script>
+   <script type="text/javascript" src="Scripts/ModalPoup.js"> </script>
+    <title>EA Turner - Title Management System</title>
+   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="margin:0;">
+    <form id="form1" runat="server">
+     <asp:ScriptManager ID="ScriptManager" runat="server" />
+     <div id="div_header">
+    <uc3:header ID="Header1" runat="server" />
+    </div>
+    <br />
+    <div id="content_wrapper" style="height:100%;">
+        <asp:ContentPlaceHolder id="Main" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <br />
+    
+
+  
+    <div id="div_footer" style="text-align:right;">
+    <uc2:footer ID="Footer1" runat="server" />
+    </div>
+    
+    </form>
+</body>
+</html>
+
